@@ -1,0 +1,70 @@
+*
+{
+	color:  royalblue;
+	font-weight: bold;
+	font: sans-serif;
+}
+h1
+{
+	font-size: 5em;
+	font-weight:  bold;
+	text-align: center;
+	/*color: white;*/
+	color: rgba(800, 800, 800, 0.75);
+	opacity: 100;
+	background-color: rgb(50, 50, 60);
+	border: 4px rgb(63, 158, 154) dotted;
+	border-radius: 30px / 30px;
+	/*text-shadow: 6px 6px 6px black;	ombre */	
+
+}
+p, h2, h3, h4, h5, a, form
+{
+	text-align: justify;
+	width: auto;
+	margin: 10px 140px 5px 140px ;
+	/*overflow: hidden;		qd cadre est + petit que texte*/
+}
+h2, h3, h4, h5	
+{
+	font-size: 2em;
+}
+
+ul, ol
+{
+	width: auto;
+	margin: 30px 30px 30px 117px;
+}
+
+.imageflottante
+{
+	float: right;
+}
+.autreparagraphe
+{
+	clear: both;	/*both = left et right*/
+}
+body
+{
+	background-color: rgb(40, 40, 50);
+}
+a:hover											/*changer couleur lien qd on est dessus - :focus pour cliquer*/
+{
+	color: turquoise;
+}p:hover										/*décaler vers la droite la paragraphe clique*/
+{
+	border-left:  3px solid black;
+}
+
+@media all and (max-width: 1024px)
+{
+	#ploc_page
+	{
+		width: auto;
+	}
+}
+
+id=“pseudo“
+{
+
+}
